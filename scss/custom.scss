@@ -1,0 +1,41 @@
+$primary: rgba(212, 180, 152, .8);
+$body-bg: rgba(255, 255, 255, .8);
+$danger: #ff4136;
+$ejemplo: #52411f;
+$theme-colors: (
+  "primary":    $primary,
+);
+$navbar-light-color: rgb(189, 166, 146);
+$navbar-padding-x:1.3rem;
+$navbar-padding-y: .1rem;
+$navbar-light-icon-color:           white;
+$navbar-toggler-padding-y:          .2rem;
+$navbar-toggler-padding-x:          .3rem;
+$navbar-brand-height: 5rem;
+
+#close{
+  color: $danger;
+}
+$navbar-brand-font-size: 1.3rem;
+.navbar-brand{
+  --bs-navbar-brand-color: white;
+  --bs-navbar-brand-hover-color: rgba($ejemplo,.9)
+}
+.modal-content{
+  --bs-modal-color: $back,
+  --bs-modal-bg: $back
+}
+.cardT{
+  --bs-card-title-color: #52411f;
+}
+.btn-cant{
+  --bs-btn-font-weight: 800;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #c7c7c79f;
+}
+
+.form-control{
+  margin-bottom: 2rem;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
+
